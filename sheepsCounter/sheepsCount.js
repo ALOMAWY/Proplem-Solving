@@ -1,10 +1,3 @@
-// Requirements
-
-// Consider an array/list of sheep where some sheep may be missing from their place.
-// We need a function that counts the number of sheep present in the array (true means present).
-
-// This Array For Example
-
 let mySheeps = [
   true,
   true,
@@ -32,9 +25,8 @@ let mySheeps = [
   true,
 ];
 
-// My Solution
+function countSheep(sheep) {
+  return sheep.filter((e) => e == true).length;
+}
 
-let countSheep = (sheep) => sheep.filter((e) => e == true).length;
-
-// Test
 console.log(countSheep(mySheeps));
