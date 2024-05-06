@@ -34,3 +34,34 @@ class SmallestIntegerFinder {
 // My Test
 
 console.log(SmallestIntegerFinder(2, 5, 7, -21, 3, 12));
+
+
+///////////////////////////////////////////////
+
+
+
+// Requirements
+
+// Given an array of integers your solution should find the smallest integer.
+
+// Examples
+
+// Given [34, 15, 88, 2] your solution will return 2
+
+// Given [34, -345, -1, 100] your solution will return -345
+
+// My Solutions
+
+
+
+// - First Solution
+
+
+
+// - Secound Solution
+
+
+
+// My Test
+
+console.log(SmallestIntegerFinder(2, 5, 7, -21, 3, 12));
